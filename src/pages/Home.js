@@ -37,11 +37,7 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <img
-                    className="homePageLogo"
-                    src="/code-sync.png"
-                    alt="code-sync-logo"
-                />
+               <h1>Code <span style={{color: "red"}}>Edit</span></h1>
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
                     <input
@@ -64,7 +60,7 @@ const Home = () => {
                         Join
                     </button>
                     <span className="createInfo">
-                        If you don't have an invite then create &nbsp;
+                        create a new room &nbsp;
                         <a
                             onClick={createNewRoom}
                             href=""
@@ -77,8 +73,8 @@ const Home = () => {
             </div>
             <footer>
                 <h4>
-                    Built with 💛 &nbsp; by &nbsp;
-                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
+                    Built with 🔥 &nbsp; by &nbsp;
+                    <a href="https://github.com/codersgyan">Mini-project</a>
                 </h4>
             </footer>
         </div>

@@ -141,3 +141,27 @@ footer a:hover {
     line-height: 1.6;
     padding-top: 20px;
 }
+
+.output-container {
+    padding: 10px;
+    font-family: monospace;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+.output-container.error {
+    color: #ff5555;
+}
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
